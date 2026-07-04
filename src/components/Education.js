@@ -17,7 +17,7 @@ function Education() {
       gpa: "71%",
       graduationYear: "March 2024",
       degree: "Intermediate (10+2) – Science",
-      description: `During my school years, I actively participated in badminton competitions, which helped me develop teamwork, discipline, and a competitive mindset. Alongside academics, I completed an Artificial Intelligence Summer Training program from IBN, strengthening my interest in technology, problem-solving, and continuous learning.`,
+      description: `During my school years, I actively participated in badminton competitions, which helped me develop teamwork, discipline, and a competitive mindset.`,
     },
   ];
 
