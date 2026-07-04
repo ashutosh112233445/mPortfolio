@@ -16,8 +16,8 @@ function Education() {
       institution: "jwala devi saraswati vidya mandir inter college civl line prayagraj ",
       gpa: "71%",
       graduationYear: "March 2024",
-      degree: "High School",
-      description: `I was a part of the school band winning multiple inter-school competitions. I was also a part of the Naval NCC as a cadet where I completed NCC "A" certification and led/trained many troops.`,
+      degree: "Intermediate (10+2) – Science",
+      description: `During my school years, I actively participated in badminton competitions, which helped me develop teamwork, discipline, and a competitive mindset. Alongside academics, I completed an Artificial Intelligence Summer Training program from IBN, strengthening my interest in technology, problem-solving, and continuous learning.`,
     },
   ];
 
