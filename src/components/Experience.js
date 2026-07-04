@@ -22,11 +22,11 @@ function Experience() {
         <div className="timeline-item">
           <div className="timeline-content loki-card">
             <h2 className="timeline-title poppins-bold">
-              Artificial Intelligence Summer Trainee
+              Artificial Intelligence Summer Training
             </h2>
 
             <p className="location poppins-bold">
-              IBN Technologies
+              IBM Artificial Intelligence Summer Training
             </p>
 
             <p className="duration poppins-bold">
