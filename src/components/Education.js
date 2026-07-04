@@ -1,26 +1,22 @@
 import React from "react";
-import bhs from "../images/BHS_logo.png";
-import ub from "../images/UB_logo.png";
 import Strange from "./Strange";
 
 function Education() {
   const educationDetails = [
     {
       id: 1,
-      institution: "University at Buffalo",
-      gpa: "3.7/4.0",
-      graduationYear: "Fall 2026",
-      degree: "Bachelor's of Science",
-      logo: ub,
-      description: `I am actively involved in various academic and extracurricular activities at the University at Buffalo. As a Research Assistant with UB ESC, I contribute to ongoing research projects, while also serving as a Social Media Intern for UB Honors and a Student Assistant at CASet. My dedication and hard work were recognized with a spot on the Dean’s List for both Spring 2024 and Fall 2024.`,
+      institution: "United college of engneering research",
+      gpa: "",
+      graduationYear: "Fall 2028",
+      degree: "B.tech computer science",
+      description: ` i am 3rd year student .`,
     },
     {
       id: 2,
-      institution: "Boys' High School & College",
-      gpa: "82%",
-      graduationYear: "March 2023",
+      institution: "jwala devi saraswati vidya mandir inter college civl line prayagraj ",
+      gpa: "71%",
+      graduationYear: "March 2024",
       degree: "High School",
-      logo: bhs,
       description: `I was a part of the school band winning multiple inter-school competitions. I was also a part of the Naval NCC as a cadet where I completed NCC "A" certification and led/trained many troops.`,
     },
   ];

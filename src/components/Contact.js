@@ -3,38 +3,47 @@ import emailjs from "@emailjs/browser";
 import Groot from "./Groot";
 
 function Contact() {
-  const formRef = useRef();
+  const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
       .sendForm(
-        "service_eiwta7c",
-        "template_ds4qfci",
-        formRef.current,
-        "ZvEOIpC-oM_CV3cDM"
+        "service_lhui5ro",
+        "template_j5e0m3o",
+        form.current,
+        "-U6-MqRxD1SNyj6bb"
       )
       .then(
         () => {
-          alert("Email sent successfully!");
-          formRef.current.reset();
+          alert("Message sent successfully!");
+          form.current.reset();
         },
-        () => {
-          alert("Error sending email. Please try again.");
+        (error) => {
+          console.error(error);
+          alert("Failed to send message. Please try again.");
         }
       );
   };
 
   return (
-    <div className="groot-container mx-auto">
+    <div id="contact" className="groot-container mx-auto">
       <div className="groot-header">
         <Groot />
         <h1 style={{ marginTop: "10px" }} className="groot-title">
-          I am Groot!
+          Contact Me
         </h1>
+        <p style={{ color: "white", textAlign: "center" }}>
+          Feel free to send me a message!
+        </p>
       </div>
-      <form ref={formRef} onSubmit={sendEmail} className="groot-form">
+
+      <form
+        ref={form}
+        onSubmit={sendEmail}
+        className="groot-form"
+      >
         <input
           className="groot-input"
           type="text"
@@ -42,6 +51,7 @@ function Contact() {
           placeholder="Your Name"
           required
         />
+
         <input
           className="groot-input"
           type="email"
@@ -49,12 +59,15 @@ function Contact() {
           placeholder="Your Email"
           required
         />
+
         <textarea
           className="groot-textarea"
           name="message"
           placeholder="Your Message"
+          rows="5"
           required
         ></textarea>
+
         <button className="groot-button" type="submit">
           Send Message
         </button>

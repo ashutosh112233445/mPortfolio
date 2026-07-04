@@ -10,6 +10,7 @@ function Hero() {
           <div className="slide-side col-12 col-sm-10 col-lg-6">
             <Spiderman />
           </div>
+
           <div className="slide-up col-lg-6">
             <h1
               style={{
@@ -20,12 +21,15 @@ function Hero() {
             >
               Hey, I am
             </h1>
+
             <h1 className="display-3 fw-bold text-light lh-1 mb-3 poppins-bold">
-              Ayush
+              Ashutosh
             </h1>
+
             <p className="lead text-light poppins-bold">
               Your friendly neighbourhood developer!
             </p>
+
             <div className="d-grid gap-2 d-md-flex justify-content-md-start">
               <a
                 className="shadow__btn text-decoration-none poppins-bold"
@@ -33,8 +37,9 @@ function Hero() {
               >
                 Experience
               </a>
+
               <a
-                className="shadow__btn  text-decoration-none poppins-bold"
+                className="shadow__btn text-decoration-none poppins-bold"
                 href="#projects"
               >
                 Projects
@@ -42,6 +47,7 @@ function Hero() {
             </div>
           </div>
         </div>
+
         <hr className="custom-divider" />
       </div>
 
@@ -57,31 +63,33 @@ function Hero() {
               }}
               className="display-3 fw-bold lh-1 mb-3 poppins-bold"
             >
-              About me
+              About Me
             </h1>
-            <p className=" text-light poppins-regular">
-              Hey, I’m Ayush, a CS major at the University at Buffalo who loves
-              blending coding with hands-on tech projects. I’ve built a
-              WiFi/Bluetooth-controlled Wall-E Robot using ESP32, C++, and
-              React, and created Pehcharm, a full-stack app that lets users
-              generate slick portfolio sites. I’m on the hunt for SWE
-              internships and robotics projects where I can keep pushing my
-              limits. When I’m not coding or tinkering with microcontrollers,
-              I’m out on campus supporting tech workshops and helping folks with
-              IT challenges.
+
+            <p className="text-light poppins-regular">
+              Hi, I'm <strong>Ashutosh Chaurasia</strong>, a Computer Science
+              student passionate about Web Development and Artificial
+              Intelligence. I enjoy building responsive websites, learning new
+              technologies, and solving real-world problems through code. I am
+              currently improving my skills in React.js, JavaScript, and Java
+              while working on personal projects to grow as a Full Stack
+              Developer.
             </p>
+
             <p
               style={{ color: "rgb(117, 190, 249)" }}
               className="poppins-regular"
             >
-              Like Moon Knight, I Adapt to Any Challenge – Bringing Light to the
-              Darkest Bugs.
+              Like Moon Knight, I adapt to any challenge – bringing light to the
+              darkest bugs.
             </p>
           </div>
+
           <div className="slide-side col-12 col-sm-10 col-lg-6">
             <Moonknight />
           </div>
         </div>
+
         <hr className="custom-divider" />
       </div>
     </>
